@@ -6,15 +6,26 @@
 ```sh
 gleam add vars
 ```
-```gleam
-import vars
+## Usage
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
+### Compile the program to an escript
+
+```sh
+gleam run -m gleescript
 ```
 
-Further documentation can be found at <https://hexdocs.pm/vars>.
+### Make the escript executable
+
+```sh
+chmod +x ./vars
+```
+
+### Run the program
+
+```sh
+./vars get USER
+# => "USER=aristoteles"
+```
 
 ## Development
 

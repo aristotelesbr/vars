@@ -1,5 +1,6 @@
 # vars
 
+[![test](https://github.com/aristotelesbr/vars/actions/workflows/test.yml/badge.svg)](https://github.com/aristotelesbr/vars/actions/workflows/test.yml)
 [![Package Version](https://img.shields.io/hexpm/v/vars)](https://hex.pm/packages/vars)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/vars/)
 

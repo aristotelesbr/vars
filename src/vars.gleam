@@ -12,7 +12,8 @@ pub fn main() {
 }
 
 fn get(name: String) -> Nil {
-  let value = envoy.get(name) |> result.unwrap("")
+  let value =
+    envoy.get(name)
+    |> result.unwrap("")
   io.println(internal.format_pair(name, value))
 }
-
